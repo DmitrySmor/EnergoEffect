@@ -1,5 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
 * {
-	font-family: 'Inter';
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header .btn-primary {
 	border: unset;
@@ -44,7 +63,7 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
-  	border-radius: 40px;
+  	border-radius: 0 0 40px 40px;
 }
 .section-bg-1 .container .row {
 	position: relative;
@@ -54,11 +73,15 @@ a:hover {
 	font-size: 60px;
 	font-weight: 800;
 	width:50%;
+	line-height: 1;
+}
+.section-bg-1 h1 span {
+	white-space: nowrap;
 }
 .section-bg-1 p {
 	font-size: 35px;
 	width:30%;
-	line-height: 50px;
+	line-height: 1.2;
 	margin-bottom:unset!important;
 	display: flex;
 	align-self:end;
@@ -69,7 +92,7 @@ a:hover {
 	
 }
 .section-bg-6 .container {
-	background-image: linear-gradient(#00000000, #0000009e), url('../images/main-banner-3-1.jpg');
+	background-image: linear-gradient(#00000000, #0000009e), url('../images/main-banner-3-1.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -137,6 +160,7 @@ footer {
 .custom-1 p {
 	font-size: 22px;
 	font-weight: 500;
+	width: 90%;
 }
 .custom-2::before {
 	content: ' ';
@@ -179,7 +203,7 @@ p b {
 	padding-top:80px!important;
 	padding-bottom:80px!important;
 }
-.panes .row .col-md-4 {
+.panes .row .col-md-4 > div {
 	height:310px;
 	background-size: 95% 100%;
 	background-repeat: no-repeat;
@@ -201,22 +225,22 @@ p b {
 	height: 22px;
 	width:22px;
 }
-.panes > .row > .col-md-4:first-child {
+.panes > .row > .col-md-4:first-child > div {
 	background-image: url('../images/pane-1.png');
 }
-.panes > .row > .col-md-4:nth-child(2) {
+.panes > .row > .col-md-4:nth-child(2) > div {
 	background-image: url('../images/pane-2.png');
 }
-.panes > .row > .col-md-4:nth-child(3) {
+.panes > .row > .col-md-4:nth-child(3) > div {
 	background-image: url('../images/pane-3.png');
 }
-.panes > .row > .col-md-4:nth-child(4) {
+.panes > .row > .col-md-4:nth-child(4) > div {
 	background-image: url('../images/pane-4.png');
 }
-.panes > .row > .col-md-4:nth-child(5) {
+.panes > .row > .col-md-4:nth-child(5) > div {
 	background-image: url('../images/pane-5.png');
 }
-.panes > .row > .col-md-4:last-child {
+.panes > .row > .col-md-4:last-child > div {
 	background-image: url('../images/pane-6.png');
 }
 .section-bg-3 {
@@ -231,6 +255,7 @@ h2.text-white {
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 	min-height: 350px;
+	border-radius: 30px;
 }
 .section-bg-3 p {
 	font-size: 22px;
@@ -297,7 +322,7 @@ h2.text-white {
 	background-image: url('../images/main-banner-2.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-position-y: -100px;
+	/*background-position-y: -100px;*/
 	border-radius: 22px;
 }
 .section-bg-5 .block-bg h4 {
@@ -451,6 +476,9 @@ div.btn-warning {
 	display: block;
 	margin-bottom: 8px;
 }
+.text-block .text .col-md-12 > div {
+	margin-bottom: 48px;
+}
 .section-404 img {
 	width:100%;
 	position: relative;
@@ -499,6 +527,7 @@ div.btn-warning {
 }
 .post-slider {
 	bottom:30px;
+	margin-bottom:48px;
 }
 .post-slider .carousel-control-prev {
 	justify-content: flex-start;
