@@ -67,7 +67,7 @@ a:hover {
 }
 .section-bg-1 .container .row {
 	position: relative;
-	top: 60%;
+	top: 72%;
 }
 .section-bg-1 h1 {
 	font-size: 60px;
@@ -277,8 +277,10 @@ h2.text-white {
     width: 66px;
 	border-radius: 50%;
 	background-color: #F85508;
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
+	position: relative;
+	top:10px;
 }
 .section-bg-4 {
 	background-image: url('../images/bg-logo.png'), linear-gradient(#E8F0F6ed, #E8F0F6ed) ;
@@ -388,7 +390,7 @@ a.btn-warning {
 	background-image: url('../images/main-banner-4.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	border-radius: 22px;
+	border-radius: 45px;
 	height: 100%;
 }
 .section-bg-7 ul {
