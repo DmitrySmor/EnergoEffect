@@ -54,7 +54,7 @@ a:hover {
 	color: white!important;;
 }
 .section-bg-1 {
-	height: 832px;
+	height: 610px;
 }
 .section-bg-1 .container {
 	height: 100%;
@@ -67,7 +67,7 @@ a:hover {
 }
 .section-bg-1 .container .row {
 	position: relative;
-	top: 72%;
+	top: 66%;
 }
 .section-bg-1 h1 {
 	font-size: 60px;
@@ -77,6 +77,10 @@ a:hover {
 }
 .section-bg-1 h1 span {
 	white-space: nowrap;
+}
+#administration .carousel-item img {
+	height: 427px;
+	border-radius: 15px;
 }
 .section-bg-1 p {
 	font-size: 35px;
@@ -92,7 +96,7 @@ a:hover {
 	
 }
 .section-bg-6 .container {
-	background-image: linear-gradient(#00000000, #0000009e), url('../images/main-banner-3-1.png');
+	background-image: linear-gradient(#00000000, #0000009e), url('../images/main-banner-3-1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
