@@ -255,7 +255,7 @@ h2.text-white {
 	font-weight: 400;
 }
 .section-bg-3 .col-md-4 > div {
-	background: url('../images/clip-bg.png');
+	background: url('../images/clip-bg-3.png');
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 	min-height: 350px;
@@ -284,7 +284,7 @@ h2.text-white {
 	font-size: 32px;
 	font-weight: bold;
 	position: relative;
-	top:10px;
+	/*top:10px;*/
 }
 .section-bg-4 {
 	background-image: url('../images/bg-logo.png'), linear-gradient(#E8F0F6ed, #E8F0F6ed) ;
