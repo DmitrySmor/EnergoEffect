@@ -2,28 +2,32 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="Keywords" content="HTML, META, метатег, тег, поисковая система"> 
+		<meta name="title" content="Энерго Эффект">
+		<meta name="Keywords" content="Сайт компании Энерго Эффект"> 
+		<meta name="description" content="Сайт компании Энерго Эффект">
 		<link rel="stylesheet" href="/css/bootstrap/bootstrap.css" media="screen">
 		<link rel="stylesheet" href="/css/bootstrap/verdor.css" media="screen">
 		<link rel="stylesheet" href="/css/bootstrap/min.css" media="screen">
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
 		<link rel="stylesheet" href="/css/styles.css" media="screen">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<header>
-			<div class="container">
+		<header class="header-menu">
+			<div class="container lg">
 				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4">
 					<a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
 						<img src="images/logoheader.png" alt="Логотип">
 					</a>
 
 					<ul class="nav col-md-7 mb-2 justify-content-center mb-md-0">
-						<li><a href="#" class="nav-link px-2 active">Главная</a></li>
-						<li><a href="#about-company" class="nav-link px-2">О компании</a></li>
-						<li><a href="#administration" class="nav-link px-2">Руководство</a></li>
-						<li><a href="#cases" class="nav-link px-2">Проекты</a></li>
+						<li><a href="index.html" class="nav-link px-2 active">Главная</a></li>
+						<li><a href="index.html#about-company" class="nav-link px-2">О компании</a></li>
+						<li><a href="index.html#administration" class="nav-link px-2">Руководство</a></li>
+						<li><a href="index.html#cases" class="nav-link px-2">Проекты</a></li>
 						<li><a href="news.html" class="nav-link px-2">Новости</a></li>
-						<li><a href="#contacts" class="nav-link px-2">Контакты</a></li>
+						<li><a href="index.html#contacts" class="nav-link px-2">Контакты</a></li>
 					</ul>
 
 					<div class="col-md-3 d-flex text-end justify-content-end" style="white-space: nowrap;">
@@ -34,6 +38,34 @@
 							<img src="images/phone-icon.png" width="18" height="18" alt="">
 							8 (862) 555-12-25 
 						</a>
+					</div>
+				</div>
+			</div>
+			<div class="container xs">
+				<div class="d-flex flex-wrap align-items-center justify-content-between py-4">
+					<a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
+						<img src="images/logoheader.png" alt="Логотип">
+					</a>
+					<nav>
+						<button class="bord-none" data-bs-toggle="collapse" data-bs-target="#MobMenuHeader" aria-controls="MobMenuHeader" aria-expanded="false" aria-label="Toggle navigation">
+						<span id="mobmenu" class="mob-menu-button" onclick="MobMenu();"></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+			<div class="collapse" id="MobMenuHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="d-flex flex-column nav justify-content-center align-items-center mb-5">
+								<li><a href="index.html" class="nav-link px-2 active">Главная</a></li>
+								<li><a href="index.html#about-company" class="nav-link px-2">О компании</a></li>
+								<li><a href="index.html#administration" class="nav-link px-2">Руководство</a></li>
+								<li><a href="index.html#cases" class="nav-link px-2">Проекты</a></li>
+								<li><a href="news.html" class="nav-link px-2">Новости</a></li>
+								<li><a href="index.html#contacts" class="nav-link px-2">Контакты</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,7 +83,7 @@
 		<section class="section-bg-2 p-5 pt-6">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-10">
+					<div class="col-md-10 col-xs-12">
 						<h2 class="mb-4">Динамично развивающаяся компания, зарегистрированная в Краснодарском крае</h2>
 					</div>
 				</div>
@@ -80,7 +112,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-xs-12 mb-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-1.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between justify-content-between" href="direction-1.html">
 									Метрологическая лаборатория ООО «Энерго Эффект»
 									<img src="images/link-arrow.png">
 								</a>
@@ -88,7 +120,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-xs-12 mb-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-2.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between justify-content-between" href="direction-2.html">
 									Эксплуатация и техническое обслуживание
 									<img src="images/link-arrow.png">
 								</a>
@@ -96,7 +128,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-xs-12 mb-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-3.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between xs-position justify-content-between" href="direction-3.html">
 									Проектирование объектов энергетики и инженерных сетей
 									<img src="images/link-arrow.png">
 								</a>
@@ -104,7 +136,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-xs-12 mbs-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-4.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between justify-content-between" href="direction-4.html">
 									Сервис и ремонт оборудования
 									<img src="images/link-arrow.png">
 								</a>
@@ -112,7 +144,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-xs-12 mbs-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-5.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between justify-content-between" href="direction-5.html">
 									Поставки специализированного оборудования
 									<img src="images/link-arrow.png">
 								</a>
@@ -120,7 +152,7 @@
 						</div>
 						<div class="col-lg-4 col-md-4 col-xs-12 mbs-5">
 							<div>
-								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between" href="direction-6.html">
+								<a class="btn btn-light text-start d-flex align-items-center justify-content-md-between justify-content-between" href="direction-6.html">
 									Строительство
 									<img src="images/link-arrow.png">
 								</a>
@@ -218,68 +250,70 @@
 			</div>
 		</section>
 		<section id="about-company" class="section-bg-4 py-6">
-			<div class="container mb-3">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="mb-5 text-uppercase">О компании</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="mb-3 text-warning">История</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="mb-3"><b>История профессионального партнёрства</b></p>
-						<p class="mb-3">21 сентября 2022 года три независимых руководителя, каждый специалист в своей области, объединили свои знания и опыт в компанию «Энерго Эффект»!</p>
-						<p>Комплексный подход к решению задач любой сложности стал основой философии компании. Объединение экспертных знаний в различных направлениях энергетического сектора позволило создать уникальную компанию, способную предоставлять полный спектр услуг в сфере промышленной теплоэнергетики</p>
-					</div>
-				</div>
-			</div>
-			<div class="custom-line">
-				<div class="container">
+			<wrapper>
+				<div class="container mb-3">
 					<div class="row">
-						<div class="col-md-3">
-							<span class="mb-5 text-primary d-block">2022</span>
-							<ul>
-								<li class="mb-2">Поиск подходящего места, регистрация компании, слияние ресурсов</li>
-								<li class="mb-2">Формирование руководящего состава основных направлений</li>
-								<li class="mb-2">Формирование материально-технической базы, закупка эталонного метрологического оборудования</li>
-							</ul>
+						<div class="col-md-12">
+							<h2 class="mb-5 text-uppercase">О компании</h2>
 						</div>
-						<div class="col-md-3">
-							<span class="mb-5 text-primary d-block">2023</span>
-							<ul>
-								<li class="mb-2">Получение лицензии на эксплуатацию опасных производственных объектов</li>
-								<li class="mb-2">Аккредитация метрологической лаборатории</li>
-								<li class="mb-2">Вступление в СРО в области строительства и проектирования</li>
-								<li class="mb-2">Увеличение объемов по эксплуатации, проектированию и строительству</li>
-								<li class="mb-2">Расширение штата специалистов до 25 ИТР</li>
-							</ul>
+					</div>
+					<div class="row mbs-5">
+						<div class="col-md-12">
+							<h2 class="mb-3 text-warning">История</h2>
 						</div>
-						<div class="col-md-3">
-							<span class="mb-5 text-primary d-block">2024</span>
-							<ul>
-								<li class="mb-2">Заключение договоров со всеми ведущими производителями и поставщиками специализированными оборудования</li>
-								<li class="mb-2">Заключение договоров на эксплуатацию с крупнейшими заказчиками в г. Сочи</li>
-								<li class="mb-2">Многократное увеличение объемов по проектированию и строительству</li>
-								<li class="mb-2">Расширение штата специалистов до 50 ИТР</li>
-							</ul>
-						</div>
-						<div class="col-md-3">
-							<span class="mb-5 text-primary d-block">2025</span>
-							<ul>
-								<li class="mb-2">Подтверждение компетенции, расширение области аккредитации метрологической лаборатории</li>
-								<li class="mb-2">Расширение штата специалистов до 63 ИТР</li>
-								<li class="mb-2">Заключение агентских договоров с группой компаний “Газпром”</li>
-							</ul>
+					</div>
+					<div class="row mbs-5">
+						<div class="col-md-12 col-xs-7">
+							<p class="mb-3"><b>История профессионального партнёрства</b></p>
+							<p class="mb-3 mbs-5">21 сентября 2022 года три независимых руководителя, каждый специалист в своей области, объединили свои знания и опыт в компанию «Энерго Эффект»!</p>
+							<p>Комплексный подход к решению задач любой сложности стал основой философии компании. Объединение экспертных знаний в различных направлениях энергетического сектора позволило создать уникальную компанию, способную предоставлять полный спектр услуг в сфере промышленной теплоэнергетики</p>
 						</div>
 					</div>
 				</div>
-			</div>
+				<div class="custom-line">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<span class="mb-5 text-primary d-block">2022</span>
+								<ul>
+									<li class="mb-2">Поиск подходящего места, регистрация компании, слияние ресурсов</li>
+									<li class="mb-2">Формирование руководящего состава основных направлений</li>
+									<li class="mb-2">Формирование материально-технической базы, закупка эталонного метрологического оборудования</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<span class="mb-5 text-primary d-block">2023</span>
+								<ul>
+									<li class="mb-2">Получение лицензии на эксплуатацию опасных производственных объектов</li>
+									<li class="mb-2">Аккредитация метрологической лаборатории</li>
+									<li class="mb-2">Вступление в СРО в области строительства и проектирования</li>
+									<li class="mb-2">Увеличение объемов по эксплуатации, проектированию и строительству</li>
+									<li class="mb-2">Расширение штата специалистов до 25 ИТР</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<span class="mb-5 text-primary d-block">2024</span>
+								<ul>
+									<li class="mb-2">Заключение договоров со всеми ведущими производителями и поставщиками специализированными оборудования</li>
+									<li class="mb-2">Заключение договоров на эксплуатацию с крупнейшими заказчиками в г. Сочи</li>
+									<li class="mb-2">Многократное увеличение объемов по проектированию и строительству</li>
+									<li class="mb-2">Расширение штата специалистов до 50 ИТР</li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<span class="mb-5 text-primary d-block">2025</span>
+								<ul>
+									<li class="mb-2">Подтверждение компетенции, расширение области аккредитации метрологической лаборатории</li>
+									<li class="mb-2">Расширение штата специалистов до 63 ИТР</li>
+									<li class="mb-2">Заключение агентских договоров с группой компаний “Газпром”</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</wrapper>
 		</section>
-		<section class="py-6">
+		<section class="py-6 lg">
 			<div class="container">
 				<div class="d-flex justify-content-md-between">
 					<div class="custom-1 v2">
@@ -384,21 +418,23 @@
 									<div class="carousel-item active">
 										<div class="container">
 											<div class="row">
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-8-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span><br>Генеральный директор</p>
-												</div>
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span><br>Руководитель службы эксплуатации</p>
-												</div>
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-6.png" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span><br>Руководитель проектного отдела</p>
-												</div>
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span><br>Технический директор</p>
+												<div class="row">
+													<div class="col-md-3 col-6">
+														<img src="images/administration-photo-8-1.jpg" class="d-block w-100">
+														<p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span><br>Генеральный директор</p>
+													</div>
+													<div class="col-md-3 col-6">
+														<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
+														<p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span><br>Технический директор</p>
+													</div>
+													<div class="col-md-3 col-6">
+														<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
+														<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span><br>Директор по строительству</p>
+													</div>
+													<div class="col-md-3 col-6">
+														<img src="images/administration-photo-6.png" class="d-block w-100">
+														<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span><br>Руководитель проектного отдела</p>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -408,6 +444,16 @@
 									<div class="carousel-item">
 										<div class="container">
 											<div class="row">
+          										<div class="col-md-3 col-6">
+         											<img src="images/administration-photo-4-1.jpg" class="d-block w-100">
+         											<p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span><br>Главный метролог</p>
+          										</div>
+
+          										<div class="col-md-3 col-6">
+         											<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
+         											<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span><br>Руководитель службы эксплуатации</p>
+          										</div>
+
 												<div class="col-md-3 col-6">
 													<img src="images/administration-photo-9-1.jpg" class="d-block w-100">
 													<p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span><br>Главный бухгалтер</p>
@@ -415,14 +461,6 @@
 												<div class="col-md-3 col-6">
 													<img src="images/administration-photo-5.png" class="d-block w-100">
 													<p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span><br>Агент по коммерческим продажам</p>
-												</div>
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span><br>Инженер ПТО</p>
-												</div>
-												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-4-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span><br>Главный метролог</p>
 												</div>
 											</div>
 										</div>
@@ -432,9 +470,9 @@
 										<div class="container">
 											<div class="row">
 												<div class="col-md-3 col-6">
-													<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
-													<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span><br>Директор по строительству</p>
-												</div>
+    												<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
+    												<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span><br>Руководитель отдела комплектации</p>
+    											</div>
 											</div>
 										</div>
 									</div>
@@ -463,13 +501,15 @@
 												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
 											</div>
 											<div class="col-md-4 col-6">
-												<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
-												<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
+												<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
 											</div>
 											<div class="col-md-4 col-6">
-												<img src="images/administration-photo-6.png" class="d-block w-100">
-												<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
-											</div>										
+												<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
+											</div>
+											
+																				
 										</div>
 									</div>
 								</div>
@@ -478,9 +518,25 @@
 									<div class="container">
 										<div class="row">
 											<div class="col-md-4 col-6">
-												<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
-												<p class="btn btn-warning text-white"><span class="text-uppercase">1Ефремов Александр Александрович</span>Технический директор</p>
+												<img src="images/administration-photo-6.png" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
+											</div>	
+											<div class="col-md-4 col-6">
+												<img src="images/administration-photo-4-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
 											</div>
+											<div class="col-md-4 col-6">
+												<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 3 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
 											<div class="col-md-4 col-6">
 												<img src="images/administration-photo-9-1.jpg" class="d-block w-100">
 												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
@@ -489,6 +545,61 @@
 												<img src="images/administration-photo-5.png" class="d-block w-100">
 												<p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Агент по коммерческим продажам</p>
 											</div>
+											<div class="col-md-4 col-6">
+												<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Инженер ПТО</p>
+											</div>
+											
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- Слайдеры для Ноутбука -->
+					 <!-- Слайдеры для Планшета -->
+						<div id="multiSlideCarousel-xs" class="carousel slide xs" style="display: none;" data-bs-ride="carousel">
+							<!-- Кнопки управления -->
+							<div class="d-flex justify-content-end" style="position:relative; bottom:60px;">
+								<button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-xs" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-xs" data-bs-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</button>
+							</div>				
+							
+								<div class="carousel-inner">
+								<!-- Слайд 1 -->						
+								<div class="carousel-item active">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/administration-photo-8-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
+											</div>
+											<div class="col-md-6">
+												<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
+											</div>
+																																					
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 2 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
+											</div>	
+											<div class="col-md-6">
+												<img src="images/administration-photo-6.png" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
+											</div>	
+											
+											
 										</div>
 									</div>
 								</div>
@@ -496,25 +607,163 @@
 								<div class="carousel-item">
 									<div class="container">
 										<div class="row">
-											
-											<div class="col-md-4 col-6">
-												<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
-												<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Инженер ПТО</p>
-											</div>
-											<div class="col-md-4 col-6">
+											<div class="col-md-6">
 												<img src="images/administration-photo-4-1.jpg" class="d-block w-100">
 												<p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
 											</div>
-											<div class="col-md-4 col-6">
-												<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
-												<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
+											<div class="col-md-6">
+												<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
+											</div>									
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 4 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/administration-photo-9-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
+											</div>
+											<div class="col-md-6">
+												<img src="images/administration-photo-5.png" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Агент по коммерческим продажам</p>
+											</div>																																
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 5 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Инженер ПТО</p>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					<!-- Слайдеры для Ноутбука -->
+					<!-- Слайдеры для Планшета -->
+					 <!-- Слайдеры для Мобильных устройств -->
+						<div id="multiSlideCarousel-xss" class="carousel slide xss" style="display: none;" data-bs-ride="carousel">
+							<!-- Кнопки управления -->
+							<div class="d-flex justify-content-end" style="position:relative; bottom:60px;">
+								<button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-xss" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-xss" data-bs-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</button>
+							</div>				
+							
+								<div class="carousel-inner">
+								<!-- Слайд 1 -->						
+								<div class="carousel-item active">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/administration-photo-8-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
+											</div>
+											
+																																					
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 2 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/administration-photo-1-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
+											</div>																															
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 3 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/administration-photo-3-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
+											</div>																															
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 3 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/administration-photo-6.png" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
+											</div>																															
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 4 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">								
+											<div class="col-md-12">
+												<img src="images/administration-photo-4-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
+											</div>																			
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 5 -->						
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">								
+											<div class="col-md-12">
+												<img src="images/administration-photo-5-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
+											</div>																				
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 6 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="images/administration-photo-9-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
+											</div>																	
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 4 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/administration-photo-2-1.jpg" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Инженер ПТО</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Слайд 4 -->
+								<div class="carousel-item">
+									<div class="container">
+										<div class="row">	
+											<div class="col-md-6">
+												<img src="images/administration-photo-5.png" class="d-block w-100">
+												<p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Агент по коммерческим продажам</p>
+											</div>																																
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- Слайдеры для Мобильных устройств -->
 					</div>
 				</div>
 			</div>
@@ -525,7 +774,7 @@
 			<div class="container mb-3">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="mb-5 text-uppercase">Реализованные проекты</h2>
+						<h2 class="mb-5 mbs-4 text-uppercase">Реализованные проекты</h2>
 					</div>
 				</div>
 			</div>
@@ -537,23 +786,23 @@
 				</div>
 				<div class="case border-top border-bottom">
 					<div class="row justify-content-md-between align-items-center py-2">
-						<div class="col-md-3"><a href="case-1.html"><img style="width:100%; height:auto;" src="images/case-1.png"></a></div>
-						<div class="col-md-6"><p><a href="case-1.html">Успешная реализация проекта котельной для пятизвездочного отеля в Сочи</a></p></div>
-						<div class="col-md-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-1.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
+						<div class="col-md-3 col-xs-3"><a href="case-1.html"><img style="width:100%; height:auto;" src="images/case-1.png"></a></div>
+						<div class="col-md-6 col-xs-6"><p><a href="case-1.html">Успешная реализация проекта котельной для пятизвездочного отеля в Сочи</a></p></div>
+						<div class="col-md-2 col-xs-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-1.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
 					</div>
 				</div>
 				<div class="case border-bottom">
 					<div class="row justify-content-md-between align-items-center py-2">
-						<div class="col-md-3"><a href="case-2.html"><img style="width:100%; height:auto;" src="images/case-2.png"></a></div>
-						<div class="col-md-6"><p><a href="case-2.html">Успешная реализация проекта котельной для современной школы в Сочи</a></p></div>
-						<div class="col-md-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-2.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
+						<div class="col-md-3 col-xs-3"><a href="case-2.html"><img style="width:100%; height:auto;" src="images/case-2.png"></a></div>
+						<div class="col-md-6 col-xs-6"><p><a href="case-2.html">Успешная реализация проекта котельной для современной школы в Сочи</a></p></div>
+						<div class="col-md-2 col-xs-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-2.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
 					</div>
 				</div>
 				<div class="case border-bottom mb-5">
 					<div class="row justify-content-md-between align-items-center py-2">
-						<div class="col-md-3"><a href="case-3.html"><img style="width:100%; height:auto;" src="images/case-3.png"></a></div>
-						<div class="col-md-6"><p><a href="case-3.html">ООО «Энерго Эффект» следит за обеспечением постоянного и безаварийного теплоснабжение курорта Красная Поляна.</a></p></div>
-						<div class="col-md-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-3.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
+						<div class="col-md-3 col-xs-3"><a href="case-3.html"><img style="width:100%; height:auto;" src="images/case-3.png"></a></div>
+						<div class="col-md-6 col-xs-6"><p><a href="case-3.html">ООО «Энерго Эффект» следит за обеспечением постоянного и безаварийного теплоснабжение курорта Красная Поляна.</a></p></div>
+						<div class="col-md-2 col-xs-2"><a class="d-flex w-100 justify-content-end p-lg-5" href="case-3.html"><img style="width:55px; height:55px;" src="images/link-arrow-2.png"></a></div>
 					</div>
 				</div>
 				<!--<div class="case border-bottom">
@@ -639,7 +888,7 @@
 				</div>
 				<div class="row mb-5 mbs-0">
 					<div class="col-lg-6 col-md-6 col-xs-12 mb-4">
-						<div class="d-flex flex-column justify-content-md-between p-5">
+						<div class="d-flex flex-column justify-content-md-between justify-content-between p-5">
 							<div>
 								<h4 class="text-white mb-3">Авторизация от АО «Арзамасский приборостроительный завод имени П.И. Пландина»</h4>
 								<p class="text-white mb-3">Наша компания является официальным сервисным центром АПЗ.</p>
@@ -653,7 +902,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-12 mb-4">
-						<div class="d-flex flex-column justify-content-md-between p-5 mx-auto">
+						<div class="d-flex flex-column justify-content-md-between justify-content-between p-5 mx-auto">
 							<div>
 								<h4 class="text-white mb-3">Партнёрство с ООО «РАСКО Газэлектроника»</h4>
 								<p class="text-white mb-3">ООО «Энерго Эффект» имеет право выполнять работы по техническому обслуживанию и внедрению оборудования производства РАСКО Газэлектроника</p>
@@ -664,7 +913,7 @@
 				</div>
 				<div class="row mb-5">
 					<div class="col-lg-6 col-md-6 col-xs-12 mb-4">
-						<div class="d-flex flex-column justify-content-md-between p-5">
+						<div class="d-flex flex-column justify-content-md-between justify-content-between p-5">
 							<div>
 								<h4 class="text-white mb-3">Официальный представитель НПП «ИРВИС»</h4>
 								<p class="text-white mb-3">На основании партнёрского договора, «Энерго Эффект» назначен официальным сервисным представителем НПП «ИРВИС» в г. Сочи.</p>
@@ -678,7 +927,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-12">
-						<div class="d-flex flex-column justify-content-md-between p-5 mx-auto">
+						<div class="d-flex flex-column justify-content-md-between justify-content-between p-5 mx-auto">
 							<div>
 								<h4 class="text-white mb-3">Сотрудничество с ООО «ЦИТ Плюс»</h4>
 								<p class="text-white mb-3">Между ООО «ЦИТ Плюс» и «Энерго Эффект» заключено соглашение о сотрудничестве, направленное на совместную техническую реализацию решений в сфере учёта ресурсов, а также обмен экспертизой и сопровождение профильного оборудования</p>
@@ -733,16 +982,16 @@
 					</div>
 				</div>
 				<div class="row docs mb-5">
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-6">
 						<img style="width:100%;" src="images/doc-img-1.png">
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-6">
 						<img style="width:100%;" src="images/doc-img-2.png">
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 lg">
 						<img style="width:100%;" src="images/doc-img-3.png">
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 lg">
 						<img style="width:100%;" src="images/default-slide.png">
 					</div>
 				</div>
@@ -798,7 +1047,7 @@
 			</div>
 		</section>
 		<section class="py-6">
-			<div class="container">
+			<div class="container how-to-point">
 				<div class="row mb-5">
 					<div class="col-md-12">
 						<h2 class="text-uppercase" style="font-weight: 700;">Как до нас добраться</h2>
@@ -811,19 +1060,19 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-xs-6 mb-5">
-						<div class="btn btn-warning d-flex justify-content-md-between align-items-center text-white px-4 py-0 text-start">
+						<div class="btn btn-warning d-flex justify-content-md-between justify-content-between align-items-center text-white px-4 py-0 text-start">
 							Парковка рядом с офисом
 							<img src="images/link-arrow-3.png">
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-xs-6 mb-5">
-						<div class="btn btn-warning d-flex justify-content-md-between align-items-center text-white px-4 py-0 text-start">
+						<div class="btn btn-warning d-flex justify-content-md-between justify-content-between align-items-center text-white px-4 py-0 text-start">
 							5 минут пешком от остановки «Хлебозавод» и «Мясокомбинат»
 							<img src="images/link-arrow-3.png">
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-xs-6 mb-5">
-						<div class="btn btn-warning d-flex justify-content-md-between align-items-center text-white px-4 py-0 text-start">
+						<div class="btn btn-warning d-flex justify-content-md-between justify-content-between align-items-center text-white px-4 py-0 text-start">
 							15 минут от ж/д вокзала
 							<img src="images/link-arrow-3.png">
 						</div>
@@ -854,13 +1103,13 @@
 				<div class="container">
 					<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between ">
 						<a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
-								<img src="images/logoheader.png" alt="Логотип">
+								<img src="images/logofooter.png" alt="Логотип">
 						</a>
 
 						<ul class="nav col-md-8 mb-2 justify-content-end mb-md-0">
 							<li><a href="/" class="nav-link px-2 text-white">Главная</a></li>
                             <li><a href="index.html#about-company" class="nav-link px-2 text-white">О компании</a></li>
-                            <li><a href="index.htm/#administration" class="nav-link px-2 text-white">Руководство</a></li>
+                            <li><a href="index.html#administration" class="nav-link px-2 text-white">Руководство</a></li>
                             <li><a href="index.html#cases" class="nav-link px-2 text-white">Проекты</a></li>
                             <li><a href="news.html" class="nav-link px-2 text-white">Новости</a></li>
                             <li><a href="index.html#contacts" class="nav-link px-2 text-white">Контакты</a></li>
