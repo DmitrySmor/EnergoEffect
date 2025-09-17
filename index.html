@@ -8,8 +8,7 @@
         <link rel="stylesheet" href="/css/bootstrap/bootstrap.css" media="screen" />
         <link rel="stylesheet" href="/css/bootstrap/verdor.css" media="screen" />
         <link rel="stylesheet" href="/css/bootstrap/min.css" media="screen" />
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="/css/owlcarousel/owl.carousel.css" media="screen" />
         <link rel="stylesheet" href="/css/styles.css" media="screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
@@ -359,9 +358,6 @@
                         <h2>Мы стремимся к тому, чтобы наш заказчик спал спокойно, зная,что его <span class="text-primary">объект работает как часы</span></h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6"></div>
-                </div>
             </div>
         </section>
         <section class="section-bg-5 pt-5">
@@ -426,7 +422,7 @@
             </div>
         </section>
         <section id="administration" class="section-carousel py-6">
-            <div class="container mb-3">
+            <div class="container mb-5">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="text-uppercase">Руководство</h2>
@@ -434,495 +430,83 @@
                 </div>
             </div>
             <div class="container">
-                <div class="col-md-12">
-                    <!-- Слайдеры для ПК -->
-                    <div id="multiSlideCarousel-lg" class="carousel slide lg" data-bs-ride="carousel">
-                        <!-- Кнопки управления -->
-                        <div class="d-flex justify-content-end" style="position: relative; bottom: 60px">
-                            <button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-lg" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-lg" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-                        <!-- Индикаторы -->
-                        <!--<div class="carousel-indicators">
-							<button type="button" data-bs-target="#multiSlideCarousel" data-bs-slide-to="0" class="active"></button>
-							<button type="button" data-bs-target="#multiSlideCarousel" data-bs-slide-to="1"></button>
-							<button type="button" data-bs-target="#multiSlideCarousel" data-bs-slide-to="2"></button>
-						</div>-->
-
-                        <!-- Слайды -->
-
-                        <div class="carousel-inner lg">
-                            <!-- Слайд 1 -->
-                            <div class="carousel-item active">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-8-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span><br />Генеральный директор</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-1-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span><br />Технический директор</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-3-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span><br />Директор по строительству</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-6.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Симонов Алексей Николаевич</span><br />Руководитель проектного отдела
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel main-carousel">
+                            <div class="item">
+                                <img src="images/administration-photo-8-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Каландов Сергей Николаевич</span><br />Генеральный директор
+                                </p>
                             </div>
-
-                            <!-- Слайд 2 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-4-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span><br />Главный метролог</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-5-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Дуденко Денис Сергеевич</span><br />Руководитель службы эксплуатации
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-9-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span><br />Главный бухгалтер</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-5.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Копоть Ида Александровна</span><br />Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="item">
+                                <img src="images/administration-photo-1-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Ефремов Александр Александрович</span><br />Технический директор
+                                </p>
                             </div>
-                            <!-- Слайд 3 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-2-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Кетрарь Татьяна Владимировна</span><br />Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-dorokhov_ivan_vasilievich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дорохов Иван Васильевич</span><br />Главный инженер проекта</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-pilyugin_roman_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Пилюгин Роман Николаевич</span><br />Главный инженер</p>
-                                        </div>
-                                        <div class="col-md-3 col-6">
-                                            <img src="images/administration-photo-pingarev_aleksandr_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Пингарев Александр Николаевич</span><br />Начальник газовой службы
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="item">
+                                <img src="images/administration-photo-3-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Мулялин Игорь Владимирович</span><br />Директор по строительству
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-6.png">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Симонов Алексей Николаевич</span><br />Руководитель проектного отдела
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-4-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Федотов Михаил Владимирович</span><br />Главный метролог
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-5-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Дуденко Денис Сергеевич</span><br />Руководитель службы эксплуатации
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-9-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Каландова Надежда Андреевна</span><br />Главный бухгалтер
+                                </p>
+                            </div>
+                            <div class="item"> 
+                                <img src="images/administration-photo-5.png">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Копоть Ида Александровна</span><br />Руководитель отдела комплектации
+                                </p>
+                            </div>
+                            <div class="item"> 
+                                <img src="images/administration-photo-2-1.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Кетрарь Татьяна Владимировна</span><br />Руководитель отдела комплектации
+                                </p>
+                            </div>
+                            <div class="item"> 
+                                <img src="images/administration-photo-dorokhov_ivan_vasilievich.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Дорохов Иван Васильевич</span><br />Главный инженер проекта
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-pilyugin_roman_nikolaevich.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Пилюгин Роман Николаевич</span><br />Главный инженер
+                                </p>
+                            </div>
+                            <div class="item">
+                                <img src="images/administration-photo-pingarev_aleksandr_nikolaevich.jpg">
+                                <p class="btn btn-warning text-white">
+                                    <span class="text-uppercase">Пингарев Александр Николаевич</span><br />Начальник газовой службы
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- Слайдеры для ПК -->
-                    <!-- Слайдеры для Ноутбука -->
-                    <div id="multiSlideCarousel-md" class="carousel slide md" style="display: none" data-bs-ride="carousel">
-                        <!-- Кнопки управления -->
-                        <div class="d-flex justify-content-end" style="position: relative; bottom: 60px">
-                            <button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-md" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-md" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-
-                        <div class="carousel-inner">
-                            <!-- Слайд 1 -->
-                            <div class="carousel-item active">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-8-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-1-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-3-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span><br />Директор по строительству</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 2 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-6.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-4-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-5-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 3 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-9-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-5.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Руководитель отдела комплектации</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-2-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 4 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-dorokhov_ivan_vasilievich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дорохов Иван Васильевич</span><br />Главный инженер проекта</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-pilyugin_roman_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Пилюгин Роман Николаевич</span><br />Главный инженер</p>
-                                        </div>
-                                        <div class="col-md-4 col-6">
-                                            <img src="images/administration-photo-pingarev_aleksandr_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Пингарев Александр Николаевич</span><br />Начальник газовой службы
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Слайдеры для Планшета -->
-                    <div id="multiSlideCarousel-xs" class="carousel slide xs" style="display: none" data-bs-ride="carousel">
-                        <!-- Кнопки управления -->
-                        <div class="d-flex justify-content-end" style="position: relative; bottom: 60px">
-                            <button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-xs" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-xs" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-
-                        <div class="carousel-inner">
-                            <!-- Слайд 1 -->
-                            <div class="carousel-item active">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-                                            <img src="images/administration-photo-8-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-1-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 2 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-                                            <img src="images/administration-photo-3-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-6.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 3 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-                                            <img src="images/administration-photo-4-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-5-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 4 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-                                            <img src="images/administration-photo-9-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-5.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Руководитель отдела комплектации</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 5 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-2-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-dorokhov_ivan_vasilievich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дорохов Иван Васильевич</span><br />Главный инженер проекта</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 6 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-
-                                        <div class="col-md-6">
-                                            <img src="images/administration-photo-pilyugin_roman_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Пилюгин Роман Николаевич</span><br />Главный инженер</p>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                            <img src="images/administration-photo-pingarev_aleksandr_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Пингарев Александр Николаевич</span><br />Начальник газовой службы
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Слайдеры для Планшета -->
-                    <!-- Слайдеры для Мобильных устройств -->
-                    <div id="multiSlideCarousel-xss" class="carousel slide xss" style="display: none" data-bs-ride="carousel">
-                        <!-- Кнопки управления -->
-                        <div class="d-flex justify-content-end" style="position: relative; bottom: 60px">
-                            <button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel-xss" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel-xss" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-
-                        <div class="carousel-inner">
-                            <!-- Слайд 1 -->
-                            <div class="carousel-item active">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-8-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландов Сергей Николаевич</span>Генеральный директор</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 2 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-1-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Ефремов Александр Александрович</span>Технический директор</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 3 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-3-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Мулялин Игорь Владимирович</span>Директор по строительству</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 3 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-6.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Симонов Алексей Николаевич</span>Руководитель проектного отдела</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 4 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-4-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Федотов Михаил Владимирович</span>Главный метролог</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 5 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-5-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дуденко Денис Сергеевич</span>Руководитель службы эксплуатации</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 6 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-9-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Каландова Надежда Андреевна</span>Главный бухгалтер</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 7 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-5.png" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Копоть Ида Александровна</span>Руководитель отдела комплектации</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 8 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-2-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 9 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-2-1.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Кетрарь Татьяна Владимировна</span>Руководитель отдела комплектации
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 10 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-dorokhov_ivan_vasilievich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Дорохов Иван Васильевич</span><br />Главный инженер проекта</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 11 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-pilyugin_roman_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white"><span class="text-uppercase">Пилюгин Роман Николаевич</span><br />Главный инженер</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Слайд 12 -->
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="images/administration-photo-pingarev_aleksandr_nikolaevich.jpg" class="d-block w-100" />
-                                            <p class="btn btn-warning text-white">
-                                                <span class="text-uppercase">Пингарев Александр Николаевич</span><br />Начальник газовой службы
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Слайдеры для Мобильных устройств -->
                 </div>
             </div>
         </section>
@@ -1321,6 +905,11 @@
                     </div>
                 </div>
             </div>
+            <script src="js/jquery-3.7.1.min.js"></script>
+            <script src="js/owlcarousel/owl.carousel.js"></script>
+            <script src="js/owlcarousel/owl.carousel.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>   
+            <script src="js/script.js"></script>
             <script>
                 let scrollbutton = document.getElementById("scroll-top");
                 window.onscroll = function () {
@@ -1341,7 +930,29 @@
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
                 }
+                $('.main-carousel').owlCarousel({
+                    loop:true,
+                    margin:15,
+                    autoplay:true,
+                    nav:true,
+                    navText: ["<img src='../images/slide-prev.png'>","<img src='../images/slide-next.png'>"],
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        720:{
+                            items:2
+                        },
+                        960:{
+                            items:3
+                        },
+                        1320:{
+                            items:4
+                        }
+                    }
+                })
             </script>
+            
         </footer>
     </body>
 </html>

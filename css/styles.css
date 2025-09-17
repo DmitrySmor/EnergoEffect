@@ -78,8 +78,15 @@ a:hover {
 .section-bg-1 h1 span {
 	white-space: nowrap;
 }
-#administration .carousel-item img {
-	height: 427px;
+#administration .owl-item {
+	height: 450px;
+}
+#administration .owl-item .item {
+	height:100%;
+}
+#administration .owl-item img {
+	height:100%;
+	width:100%;
 	border-radius: 15px;
 }
 .section-bg-1 p {
@@ -121,7 +128,6 @@ a:hover {
 .section-bg-6 p {
 	font-size: 16px;
 	line-height: 19px;
-	width:50%;
 }
 .text-warning {
 	color: #f85508!important;
@@ -357,24 +363,25 @@ h2.text-white {
 	position: relative;
 	width:7%;
 }
-.section-carousel .carousel-item p {
+.section-carousel .owl-item p {
 	position: relative;
-    bottom: 15%;
+    bottom: 17%;
     margin: 0 auto;
     display: block;
     text-align: left;
 	width:95%;
 	white-space: nowrap;
     font-size: 12px;
+	padding:10px 15px;
 }
-.section-carousel .carousel-item p span {
+.section-carousel .owl-item p span {
 	font-weight: 600;
 }
 .btn-warning {
 	background-color: #F85508!important;
 	border:unset;
 }
-.carousel-control-prev-icon {
+.carousel-control-prev-icon{
 	background-image: url('../images/slide-prev.png');
 	height: 60px;
 	width:60px;
@@ -383,6 +390,15 @@ h2.text-white {
 	background-image: url('../images/slide-next.png');
 	height: 60px;
 	width:60px;
+}
+.owl-carousel.main-carousel .owl-nav {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	bottom:560px;
+}
+.owl-carousel.main-carousel .owl-nav button:first-child {
+	margin-right: 20px;
 }
 .cases .case p {
 	font-size:22px;
@@ -618,7 +634,7 @@ html {
 	header .btn-primary {
 		font-size:12px;
 	}
-	.section-carousel .carousel-item p {
+	.section-carousel .owl-item p {
 		font-size:11px;
 	}
 }
@@ -794,7 +810,7 @@ html {
 	.carousel.md {
 		display: block!important;
 	}
-	.section-carousel .carousel-item p {
+	.section-carousel .owl-item p {
 		display: flex;
     	flex-direction: column;
     	justify-content: space-between;
@@ -1048,11 +1064,11 @@ html {
 	.section-carousel .carousel .carousel-control-prev, .section-carousel .carousel .carousel-control-next {
         width: 12%;
     }
-	.section-carousel .carousel-item p {
+	.section-carousel .owl-item p {
 		height: 20%;
 		justify-content: space-around;
 	}
-	#administration.section-carousel .carousel-item p span {
+	#administration.section-carousel .owl-item p span {
 		font-size: 14px;
 		white-space: nowrap;
 	}
@@ -1117,7 +1133,7 @@ html {
 	.text-block img {
 		height:225px;
 	}
-	.post-slider .carousel-item img {
+	.post-slider .owl-item {
 		height: 340px;
 	}
 	.post-slider > div:first-child {
@@ -1175,6 +1191,25 @@ html {
 	.section-404 .btn {
         bottom: -4vh;
 	}
+	#administration .owl-item {
+    	height: 380px;
+	}
+	.owl-item {
+		height:365px;
+	}
+	.owl-carousel.main-carousel .owl-item p {
+		bottom:23%;
+		font-size:10px;
+		padding:10px!important;
+		justify-content: unset;
+		height:18%;
+	}
+	#administration.section-carousel .owl-item p span {
+		font-size:10px;
+	}
+	.owl-carousel.main-carousel .owl-nav {
+		bottom:495px;
+	}
 }
 @media (max-width:720px) {
 	.section-bg-4 .custom-line::after {
@@ -1226,7 +1261,7 @@ html {
 	.section-carousel .carousel .carousel-control-prev, .section-carousel .carousel .carousel-control-next {
         width: 14%;
     }
-	#administration.section-carousel .carousel-item p span {
+	#administration.section-carousel .owl-item p span {
         font-size: 10px;
 	}
 	.cases .case a,	.cases .case a img {
@@ -1285,7 +1320,9 @@ html {
 	.section-404 .btn {
         bottom: 6vh;
 	}
-	
+	.section-carousel .owl-item p {
+		width:93%;
+	}
 }
 @media (max-width:540px) {
 	header .container > .d-flex a:first-child img {
@@ -1439,7 +1476,7 @@ html {
 	.section-bg-7 .p-5 {
 		padding:48px 20px!important;
 	}
-	.carousel-item {
+	.owl-item {
 		overflow: hidden;
 		border-radius: 20px;
 	}
@@ -1457,7 +1494,7 @@ html {
 		position: relative;
 		left: 0px;
 	}
-	#administration.section-carousel .carousel-item p span, .section-carousel .carousel-item p 
+	#administration.section-carousel .owl-item p span, .section-carousel .owl-item p 
 	{
         font-size: 14px;
     }
@@ -1511,8 +1548,13 @@ html {
 	.section-404 .btn {
         bottom: -2vh;
 	}
+	.owl-carousel.main-carousel .owl-item .item {
+		width:65%;
+		display: block;
+		margin:0 auto;
+	}
 }
-@media (max-width:320px) {
+@media (max-width:335px) {
 	.custom-num {
         right: -27px;
     }
@@ -1557,4 +1599,18 @@ html {
 	.section-404 .btn {
         bottom: -17vh;
 	}
+	.owl-carousel.main-carousel .owl-item .item {
+		width:100%;
+	}
+	.owl-carousel.main-carousel .owl-nav button {
+		height:40px;
+		width:40px;
+	}
+	.owl-carousel.main-carousel .owl-nav button img {
+		height: 100%;;
+	}
+	.owl-carousel.main-carousel .owl-nav
+ 	{
+        bottom: 473px;
+    }
 }
