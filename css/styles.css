@@ -497,15 +497,17 @@ div.btn-warning {
 	font-weight: bold;
 }
 .text-block p,.text-block ul li, .text-block h4 {
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .text-block h1 {
 	font-size: 42px;
 	font-weight: 800;
 }
-.text-block h4 {
+.text-block h4,.text-block h2 {
 	font-size: 22px;
 	font-weight: bold;
+	margin-bottom: 25px;
+    line-height: 1;
 }
 .text-block ul {
 	padding-left:15px;
@@ -533,8 +535,8 @@ div.btn-warning {
 	display: block;
 	margin-bottom: 8px;
 }
-.text-block .text .col-md-12 > div {
-	margin-bottom: 48px;
+.text-block .text,.text-block p.mb-3 {
+	margin-bottom:25px!important;
 }
 .section-404 img {
 	width:100%;
