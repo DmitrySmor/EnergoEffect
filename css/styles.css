@@ -516,24 +516,27 @@ div.btn-warning {
 .text-block span {
 	font-weight: bold;
 }
-.text-block p,.text-block ul li,.text-block ol li {
+.text-block p,.text-block ul,.text-block ol,.text-block.news-block ul li,.text-block.news-block ol li {
 	margin-bottom: 25px;
+}
+.text-block ul li,.tex-block ol li {
+	line-height: 19px;;
 }
 .text-block h1 {
 	font-size: 42px;
 	font-weight: 800;
 }
 .text-block h2 {
-	font-size:22px;
+	font-size:24px;
 }
 .text-block h3 {
-	font-size: 20px;
+	font-size: 22px;
 }
 .text-block h4 {
-	font-size: 18px;
+	font-size: 20px;
 }
 .text-block h5 {
-	font-size:16px;
+	font-size:18px;
 }
 .text-block h2,.text-block h3,.text-block h4,.text-block h5,.text-block h6{
 	font-weight: 800;
@@ -543,7 +546,13 @@ div.btn-warning {
 .text-block ul,.text-block ol {
 	padding-left:15px;
 }
-   
+ .text-block p {
+	line-height: 19px;
+ }
+ .text-block hr {
+	margin-top:unset;
+	margin-bottom: 25px;
+ }
 .text-block .col-md-3 p {
 	font-weight:600;
 	height: 70px;
