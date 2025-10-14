@@ -683,8 +683,8 @@ header .xs {
 	width: 55px; 
 	height: 55px;
 }
-.section-bg-3 ul.p3 {
-	padding-left: 40px !important;
+.section-bg-3 ul.p-3 {
+	padding: 24px 42px !important;
 }
 .text-block h1 {
 	margin-bottom:unset;
